@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizzbuzz generator. Javascript. CSS</title>
+    <script src="fizzbuzz.js"> defer="" </script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+</head>
+<body>
+    <img src="fizz-buzz-2022-RTU-DH.png" class="responsive"
+    <div class="rev-style">
+        <div class="rev-style-headingB">FizzBuzz generator for numbers from 1 to 100
+            <br>
+            <label><span>Enter a number:</span><input id="Fizzvalue" type="number" name="fizz" value="3"></label>
+            <br>
+            <label><span>Enter another number: </span><input id="Buzzvalue" type="number" name="buzz" value="5"></label>
+            <br>
+            <label><span></span><input type="submit" onclick="BuzzItTemplate()" value="Buzz It"></label>
+            <br>
+            <div style="overflow-x: auto;">
+            </div>
+           
+            <table id="results">
+
+            </table>
+        
+    <script id="template-header" type="text/template">
+        <thead>
+            <tr><th colspan="5">Results For Fizz Buzz Generator </th></tr>
+        </thead>
+    </script>
+    <script id="template-row-items" type="text/template">
+        <tr>
+            <td>{{val1}}</td><td>{{val2}}</td><td>{{val3}}</td><td>{{val4}}</td><td>{{val5}}</td>
+        </tr>
+    </script>
+    
+<footer>Logo made in logo.com</footer>
+<footer>(C) 2022 RTU Digital Humanities MA, Homework#3</footer>    
+</body>
+</html>
